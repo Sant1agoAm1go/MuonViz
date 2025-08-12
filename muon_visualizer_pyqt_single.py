@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Muon Visualizer — PyQt5 + pyqtgraph.opengl
-Сохрани как muon_visualizer_pyqt.py и запусти: python muon_visualizer_pyqt.py
+Сохрани как muon_visualizer_pyqt_single.py и запусти: python muon_visualizer_pyqt_single.py
 """
 import sys
 import math
@@ -46,7 +46,7 @@ def color_from_norm(norm):
 class MuonVisualizer(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Muon Visualizer — PyQt (offline)")
+        self.setWindowTitle("Muon Visualizer")
         self.resize(1200, 800)
 
         # Data holders
@@ -89,7 +89,7 @@ class MuonVisualizer(QtWidgets.QMainWindow):
         form = QtWidgets.QFormLayout()
         form.addRow("Макс лучей:", self.spin_max_rays)
         form.addRow("Масштаб длины:", self.spin_len_scale)
-        form.addRow("Порог Count (мин):", self.spin_min_count)
+        form.addRow("Порог Count (min):", self.spin_min_count)
         form.addRow(self.check_log)
         left_layout.addLayout(form)
 
