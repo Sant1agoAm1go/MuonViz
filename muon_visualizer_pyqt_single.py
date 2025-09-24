@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Muon Visualizer — PyQt5 + pyqtgraph.opengl
-Сохрани как muon_visualizer_pyqt_single.py и запусти: python muon_visualizer_pyqt_single.py
-"""
 import sys
 import math
 import numpy as np
