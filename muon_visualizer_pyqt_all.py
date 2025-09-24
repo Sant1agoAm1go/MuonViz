@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Muon Visualizer — PyQt5 + pyqtgraph.opengl
-Версия: batch-отрисовка + "рисовать из всех детекторов"
-Сохрани как muon_visualizer_pyqt.py и запусти: python muon_visualizer_pyqt.py
-"""
 import sys
 import math
 import numpy as np
